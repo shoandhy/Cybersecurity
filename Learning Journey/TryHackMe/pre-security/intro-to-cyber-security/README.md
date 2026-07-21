@@ -26,15 +26,15 @@ Before diving into technical tools, it is crucial to understand the "why" behind
 ## Key Concepts
 
 ### 1. Offensive Security
-**General Explanation:** Offensive security involves proactively simulating attacks against a system to identify vulnerabilities before malicious actors do. It requires thinking like an attacker—mapping the target's attack surface, discovering hidden endpoints, and exploiting weaknesses to prove a system is insecure.
+**General Explanation:** Offensive security involves proactively simulating attacks against a system to identify vulnerabilities before malicious actors do. It requires thinking like an attacker—mapping the target's attack surface, discovering hidden endpoints, and exploiting weaknesses to prove a system is insecure.  
 **Baby Talk Explanation:** Imagine you are the owner of a bank. Instead of waiting for a real robber to come and steal your money, you hire a "good robber" to try and break into your bank. The good robber tells you exactly which window was unlocked so you can fix it before the real bad guys find it.
 
 ### 2. Defensive Security
-**General Explanation:** Defensive security is the process of protecting systems, networks, and data from unauthorized access and attacks. It focuses on three main areas: Prevention (configuring firewalls, patching systems), Detection (monitoring logs and alerts), and Response (investigating incidents and blocking malicious IP addresses).
+**General Explanation:** Defensive security is the process of protecting systems, networks, and data from unauthorized access and attacks. It focuses on three main areas: Prevention (configuring firewalls, patching systems), Detection (monitoring logs and alerts), and Response (investigating incidents and blocking malicious IP addresses).  
 **Baby Talk Explanation:** You are the security guard sitting in the control room looking at TV screens (monitoring). When you see someone sneaking around the back door (detection), you run over and lock the door so they can't get in (response).
 
 ### 3. Tool Spotlight: Directory Brute-forcing (e.g., `dirb`)
-**General Explanation:** Directory brute-forcing is a technique used for content discovery. Tools like `dirb` send HTTP requests to a web server using a wordlist (a text file containing thousands of common words). If the server responds with a 200 OK status, the tool knows that hidden directory or file exists. 
+**General Explanation:** Directory brute-forcing is a technique used for content discovery. Tools like `dirb` send HTTP requests to a web server using a wordlist (a text file containing thousands of common words). If the server responds with a 200 OK status, the tool knows that hidden directory or file exists.  
 **Baby Talk Explanation:** Imagine a massive apartment building with no directory. A robot knocks on every single door—Door 1, Door 2, Door "Admin", Door "Secret"—and writes down a list of every door where someone actually answers.
 
 ### 4. Career Paths

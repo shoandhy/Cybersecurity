@@ -86,17 +86,14 @@ Three-digit numbers returned by the server to indicate the outcome of the reques
 - **2XX (Success):** Server successfully received, understood, and processed the request (e.g., 200 OK).
 - **3XX (Redirection):** The requested URL has been moved or redirected to a different resource (e.g., 301 Moved Permanently).
 - **4XX (Client Error):** The request was invalid or cannot be fulfilled (e.g., 404 Not Found, 403 Forbidden).
-- **5XX (Server Error):** The request was valid, but the server failed to process it (e.g., 500 Internal Server Error).
-![HTTP Request Structure](assets/http-status-codes.png)
-
+- **5XX (Server Error):** The request was valid, but the server failed to process it (e.g., 500 Internal Server Error).  
+![HTTP Request Structure](assets/http-status-codes.png)  
     Credit : https://javaconceptoftheday.com/http-status-codes-cheat-sheet/
 
 ## Theoretical Study / Practical Observations
 
-- **Front-end vs Back-end Interaction:** 
-  *Suggested Image: A diagram showing a browser sending an HTTP request over the internet to a server, which then queries a database.*
-  ![Client-Server Architecture Diagram](assets/client-server-diagram.png)
-    
+- **Front-end vs Back-end Interaction:**  
+  ![Client-Server Architecture Diagram](assets/client-server-diagram.png)  
     Credit : https://ipwithease.com/frontend-vs-backend-languages/
 
 ## Challenges Encountered

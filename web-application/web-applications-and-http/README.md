@@ -88,13 +88,13 @@ Three-digit numbers returned by the server to indicate the outcome of the reques
 - **4XX (Client Error):** The request was invalid or cannot be fulfilled (e.g., 404 Not Found, 403 Forbidden).
 - **5XX (Server Error):** The request was valid, but the server failed to process it (e.g., 500 Internal Server Error).  
 ![HTTP Request Structure](assets/http-status-codes.png)  
-    Credit : https://javaconceptoftheday.com/http-status-codes-cheat-sheet/
+    Source : https://javaconceptoftheday.com/http-status-codes-cheat-sheet/
 
 ## Theoretical Study / Practical Observations
 
 - **Front-end vs Back-end Interaction:**  
   ![Client-Server Architecture Diagram](assets/client-server-diagram.png)  
-    Credit : https://ipwithease.com/frontend-vs-backend-languages/
+    Source : https://ipwithease.com/frontend-vs-backend-languages/
 
 ## Challenges Encountered
 
